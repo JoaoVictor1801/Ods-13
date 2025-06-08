@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima em Ação ODS 13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Clima em Ação ODS 13</div>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#ods13">ODS 13</a></li>
+                <li><a href="#emissions">Emissões</a></li>
+                <li><a href="#calculator">Calculadora de Pegada de Carbono</a></li>
+                <li><a href="#projects">Projetos de Compensação</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Hero + ODS 13 Integradas -->
+        <section id="home" class="hero-ods-section">
+            <div class="hero-ods-content">
+                <!-- Intro Hero -->
+                <div class="hero-intro">
+                    <h1>Juntos pelo Clima: Sua Ação Faz a Diferença!</h1>
+                    <p>Monitore emissões, calcule sua pegada de carbono e apoie projetos sustentáveis.</p>
+                    <a href="#calculator" class="cta-button">Calcule Sua Pegada Agora</a>
+                </div>
+
+                <!-- ODS 13 Header -->
+                <div class="ods-header">
+                    <div class="ods-badge">
+                        <div class="ods-number">13</div>
+                        <span>Ação Contra a Mudança Global do Clima</span>
+                    </div>
+                    <h2 class="ods-title">Ação Contra a Mudança Global do Clima</h2>
+                    <p class="ods-subtitle">Tomar medidas urgentes para combater a mudança climática e seus impactos</p>
+                </div>
+
+                <!-- Stats -->
+                <div class="ods-stats">
+                    <h3>O Desafio Climático em Números</h3>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">1.1°C</span>
+                            <span class="stat-label">Aumento da temperatura global desde 1880</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">421ppm</span>
+                            <span class="stat-label">Concentração atual de CO₂ na atmosfera</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">36Gt</span>
+                            <span class="stat-label">Emissões globais anuais de CO₂</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">2030</span>
+                            <span class="stat-label">Meta para reduzir emissões em 45%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cards ODS -->
+                <div class="ods-grid">
+                    <div class="ods-card">
+                        <span class="ods-card-icon">🌍</span>
+                        <h3>Impacto Global</h3>
+                        <p>As mudanças climáticas afetam todos os países e pessoas. O aumento das temperaturas, eventos extremos e elevação do nível do mar são realidades que exigem ação imediata de governos, empresas e cidadãos.</p>
+                    </div>
+
+                    <div class="ods-card">
+                        <span class="ods-card-icon">⚡</span>
+                        <h3>Energia Limpa</h3>
+                        <p>A transição para fontes de energia renovável é fundamental. Investir em energia solar, eólica e outras tecnologias limpas reduz drasticamente as emissões de gases de efeito estufa.</p>
+                    </div>
+
+                    <div class="ods-card">
+                        <span class="ods-card-icon">🌱</span>
+                        <h3>Soluções Naturais</h3>
+                        <p>Florestas, oceanos e solos são nossos aliados naturais na captura de carbono. Proteger e restaurar ecossistemas é uma estratégia eficaz e econômica para mitigar as mudanças climáticas.</p>
+                    </div>
+
+                    <div class="ods-card">
+                        <span class="ods-card-icon">🏭</span>
+                        <h3>Transformação Industrial</h3>
+                        <p>Indústrias devem adotar tecnologias mais limpas e eficientes. A economia circular, redução de desperdícios e inovação tecnológica são chaves para um futuro sustentável.</p>
+                    </div>
+
+                    <div class="ods-card">
+                        <span class="ods-card-icon">🚗</span>
+                        <h3>Mobilidade Sustentável</h3>
+                        <p>Transportes representam grande parcela das emissões. Veículos elétricos, transporte público eficiente e mobilidade ativa são fundamentais para cidades mais limpas.</p>
+                    </div>
+
+                    <div class="ods-card">
+                        <span class="ods-card-icon">👥</span>
+                        <h3>Ação Individual</h3>
+                        <p>Cada pessoa pode contribuir: reduzindo consumo, escolhendo produtos sustentáveis, economizando energia e apoiando políticas ambientais. Pequenas ações geram grandes impactos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="emissions" class="data-section">
+            <h2>Monitoramento de Emissões de Carbono</h2>
+            <img src="./OIP.png" alt="Mapa global de concentração de CO₂">
+            <p>Dados em tempo real sobre as emissões no Mundo de CO₂.</p>
+        </section>
+
+        <section id="calculator" class="calculator-section">
+            <h2>Calcule Sua Pegada de Carbono</h2>
+            <form>
+                <label for="transport">Transporte (km/mês):</label>
+                <input type="number" id="transport" name="transport">
+
+                <label for="energy">Consumo de Energia da sua residência media (kWh/mês):</label>
+                <input type="number" id="energy" name="energy">
+
+                <button type="submit">Calcular</button>
+            </form>
+            <div id="result"></div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2>Projetos de Compensação de Carbono</h2>
+            <div class="project-cards">
+                <div class="card">
+                    <h3>Reflorestamento na Amazônia</h3>
+                    <p>Apoie o plantio de árvores e a recuperação de áreas degradadas.</p>
+                    <a href="https://www.wwf.org.br/nosso-trabalho/reflorestamento/">Saiba mais</a>
+                </div>
+                <div class="card">
+                    <h3>Carros Elétricos</h3>
+                    <p>Invista em carros elétricos para reduzir as emissões de carbono.</p>
+                    <a href="https://mobilidade.estadao.com.br/inovacao/7-vantagens-dos-carros-eletricos/">Saiba Mais</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Clima em Ação. Todos os direitos reservados.</p> 
+        <p>Alunos/ra: João vicotr garcia Avelino:52317818 Victor Hugo:52317818</p>
+     
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
