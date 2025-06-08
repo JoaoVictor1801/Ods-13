@@ -541,24 +541,54 @@ footer {
     nav {
         flex-direction: column;
         gap: 10px;
+        padding: 10px;
     }
     
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
+        gap: 8px;
+    }
+
+    .hero-intro h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-intro p {
+        font-size: 1.1rem;
+    }
+
+    .ods-title {
+        font-size: 2rem;
+    }
+
+    .ods-subtitle {
+        font-size: 1.1rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .ods-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
 }
 
 @media (max-width: 768px) {
-    nav {
-        flex-direction: column;
-        gap: 15px;
+    header {
+        padding: 0.6rem 0;
     }
 
-    nav ul {
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    nav ul li a {
+        padding: 6px 12px;
+        font-size: 0.9rem;
     }
 
     .hero-ods-section {
@@ -566,48 +596,170 @@ footer {
     }
 
     .hero-intro h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .hero-intro p {
+        font-size: 1rem;
+    }
+
+    .cta-button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    .ods-header {
+        padding: 20px;
+        margin: 30px 0;
+    }
+
+    .ods-badge {
+        padding: 10px 15px;
+    }
+
+    .ods-number {
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
     }
 
     .ods-title {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
 
     .ods-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+
+    .stat-item {
+        padding: 15px;
+    }
+
+    .stat-number {
+        font-size: 1.8rem;
+    }
+
+    .stat-label {
+        font-size: 0.9rem;
     }
 
     .ods-grid {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 12px;
     }
 
     .ods-card {
-        padding: 20px;
+        padding: 15px;
     }
 
-    .stats-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .ods-card h3 {
+        font-size: 1.3rem;
     }
 
-    .stat-number {
-        font-size: 2.2rem;
+    .ods-card p {
+        font-size: 0.9rem;
     }
 
-    .data-section, .calculator-section, .projects-section {
-        padding: 40px 15px;
-        margin: 20px 10px;
-    }
-
-    .data-section h2, .calculator-section h2, .projects-section h2 {
-        font-size: 2rem;
+    .data-section img {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 10px;
     }
 
     .project-cards {
-        gap: 20px;
+        grid-template-columns: 1fr;
+        gap: 15px;
     }
 
     .card {
-        padding: 20px;
+        padding: 15px;
     }
+
+    .card h3 {
+        font-size: 1.3rem;
+    }
+
+    .card p {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-intro h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-intro p {
+        font-size: 0.9rem;
+    }
+
+    .cta-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .ods-header {
+        padding: 15px;
+    }
+
+    .ods-title {
+        font-size: 1.5rem;
+    }
+
+    .ods-subtitle {
+        font-size: 0.9rem;
+    }
+
+    .stat-number {
+        font-size: 1.5rem;
+    }
+
+    .stat-label {
+        font-size: 0.8rem;
+    }
+
+    .data-section img {
+        border-radius: 8px;
+    }
+
+    .calculator-section form {
+        padding: 15px;
+    }
+
+    .calculator-section input[type="number"] {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .calculator-section button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.data-section img {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    will-change: transform;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
