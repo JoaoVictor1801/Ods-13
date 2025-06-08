@@ -72,7 +72,7 @@ nav ul li a:focus, nav ul li a:hover {
     box-shadow: 0 4px 15px rgba(22, 160, 133, 0.4);
 }
 
-/* Seção Hero + ODS 13 Integradas */
+
 .hero-ods-section {
     background: linear-gradient(135deg, #1e3c72 0%, #2a5298 20%, #16a085 60%, #27ae60 100%);
     color: #fff;
@@ -162,7 +162,7 @@ nav ul li a:focus, nav ul li a:hover {
     left: 100%;
 }
 
-/* ODS 13 Header Integrado */
+
 .ods-header {
     text-align: center;
     margin: 60px 0 40px;
@@ -215,7 +215,7 @@ nav ul li a:focus, nav ul li a:hover {
     font-family: Arial, sans-serif;
 }
 
-/* Stats melhoradas */
+
 .ods-stats {
     background: rgba(255, 255, 255, 0.15);
     border-radius: 20px;
@@ -270,7 +270,7 @@ nav ul li a:focus, nav ul li a:hover {
     font-family: Arial, sans-serif;
 }
 
-/* Cards ODS melhorados */
+
 .ods-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
@@ -320,7 +320,7 @@ nav ul li a:focus, nav ul li a:hover {
     color: #fff;
 }
 
-/* Outras seções com tema azul-verde */
+
 .data-section, .calculator-section, .projects-section {
     padding: 60px 20px;
     max-width: 1200px;
@@ -496,7 +496,7 @@ footer {
     font-family: Arial, sans-serif;
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     nav {
         flex-direction: column;
