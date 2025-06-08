@@ -511,7 +511,7 @@ nav ul li a:hover {
     box-shadow: 0 5px 15px rgba(22, 160, 133, 0.3);
 }
 
-footer {
+#contact {
     background: linear-gradient(135deg, #1e3c72, #2a5298);
     color: #fff;
     text-align: center;
